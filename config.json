@@ -1,0 +1,6 @@
+{
+  "server_url": "https://api.artstudia.com",
+  "auto_update": true,
+  "timeout": 30,
+  "client_version": "0.1.0"
+}
