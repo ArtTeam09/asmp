@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asmp"
+version = "0.1.0"
+description = "ASMP - ArtStudia Manager Packets"
+authors = [
+    {name = "ArtTeam", email = "ArtRebos@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = [
+    "requests>=2.25.0",
+    "colorama>=0.4.6"
+]
+
+[project.scripts]
+asp = "asmp:main"
+
+[project.urls]
+Homepage = "https://github.com/artteam09/asmp"
+Repository = "https://github.com/artteam09/asmp"
+"Bug Reports" = "https://github.com/artteam09/asmp/issues"
