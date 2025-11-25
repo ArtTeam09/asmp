@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![ASMP Banner](https://via.placeholder.com/800x200/2D3748/FFFFFF?text=ASMP+-+ArtStudia+Manager+Packets)
 *Менеджер пакетов нового поколения для экосистемы ArtStudia*
 
 [![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)](https://www.python.org/)
@@ -36,3 +35,4 @@ cd asmp
 
 # Установка в режиме разработки
 pip install -e .
+
